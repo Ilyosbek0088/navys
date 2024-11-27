@@ -1,0 +1,30 @@
+body
+{
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.nav-link{
+  box-shadow: 0px 0px 40px aqua;
+color: aqua;
+text-shadow: 0px 0px 5px aqua;
+}
+
+.nav-pills
+{
+
+  display: flex;
+  gap: 30px;
+}
+
+.word
+{
+  background: -webkit-linear-gradient(blue,aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
